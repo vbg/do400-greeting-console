@@ -9,8 +9,8 @@ spec:
   source:
     type: Git
     git:
-      uri: 'https://github.com/vbg/do400-greeting-console'
-      ref: main
+     uri: 'https://github.com/vbg/do400-greeting-console'
+     ref: main
   output:
     to:
       kind: DockerImage
