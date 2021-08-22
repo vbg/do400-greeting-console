@@ -24,10 +24,10 @@ pipeline{
         // Add the Release stage here
         stage("Release") {
 		steps{
-		    sh "'
+		    sh '''
                       oc project jqjwlh-greetings
                       oc start-build greeting-console --follow --wait
-                    '" 
+                    '''
 		}
 	}
     }
